@@ -1,3 +1,6 @@
+
+/*  NORMALIZACION */
+
 *{
 
     padding: 0;
@@ -5,4 +8,49 @@
     box-sizing: border-box;
 
 }
+
+main{
+        background-color: blueviolet;
+        display: flex;
+        justify-content: center;
+    }
+
+footer{
+        background-color: blueviolet;
+        display: flex;
+        justify-content: center;
+}
+
+.tabla-aside{
+              background-color:rgb(34, 123, 178) ;
+              /*color:; */
+              font-family: 'Courier New', Courier, monospace;
+              /* width: 0%;
+              display: flex;
+              justify-content: :end;*/
+            }
+
+.tabla-aside span{
+                   font-size: 215%;
+                   font-weight: 100;
+                   display: flex;
+                   justify-content: end;
+                 }
+
+
     
+.padre{
+         
+        background-color: rgb(66, 197, 72);
+        text-align: center white;
+        display: flex;
+        justify-content: end;
+       }
+
+   
+.articulo{
+           /* 1vw = 1% del ancho del viewport */
+           /*width: 100vw; /*100% del viewport width */
+           /*height: 100vw; /* 100% del viewport height */
+           background-color: aqua;
+          }         
